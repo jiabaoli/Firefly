@@ -1,0 +1,157 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:D:/Unity5.5.1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.dll
+-r:D:/Unity5.5.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+-r:D:/Unity5.5.1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+-r:D:/Unity5.5.1/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll
+-r:D:/Unity5.5.1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+-r:D:/Unity5.5.1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+-r:D:/Unity5.5.1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll
+-r:D:/Unity5.5.1/Editor/Data/Managed/UnityEditor.dll
+-r:D:/Unity5.5.1/Editor/Data/Managed/Mono.Cecil.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_1
+-define:UNITY_5_5
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_METRO
+-define:UNITY_METRO_API
+-define:UNITY_WINRT
+-define:ENABLE_WINRT_PINVOKE
+-define:ENABLE_LAZY_METHOD_CACHING
+-define:ENABLE_MOVIES
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_NETWORK
+-define:ENABLE_EVENT_QUEUE
+-define:UNITY_PLATFORM_THREAD_TO_CORE_MAPPING
+-define:ENABLE_SUBSTANCE
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:CURL_STATICLIB
+-define:ENABLE_VR
+-define:UNITY_WSA
+-define:ENABLE_DOTNET
+-define:ENABLE_PROFILER
+-define:UNITY_WSA_10_0
+-define:UNITY_WINRT_10_0
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/DragonBoar/Scripts/playerControl.cs
+Assets/MQTT/scripts/Exceptions/MqttClientException.cs
+Assets/MQTT/scripts/Exceptions/MqttCommunicationException.cs
+Assets/MQTT/scripts/Exceptions/MqttConnectionException.cs
+Assets/MQTT/scripts/Exceptions/MqttTimeoutException.cs
+Assets/MQTT/scripts/IMqttNetworkChannel.cs
+Assets/MQTT/scripts/Messages/MqttMsgBase.cs
+Assets/MQTT/scripts/Messages/MqttMsgConnack.cs
+Assets/MQTT/scripts/Messages/MqttMsgConnect.cs
+Assets/MQTT/scripts/Messages/MqttMsgConnectEventArgs.cs
+Assets/MQTT/scripts/Messages/MqttMsgContext.cs
+Assets/MQTT/scripts/Messages/MqttMsgDisconnect.cs
+Assets/MQTT/scripts/Messages/MqttMsgPingReq.cs
+Assets/MQTT/scripts/Messages/MqttMsgPingResp.cs
+Assets/MQTT/scripts/Messages/MqttMsgPuback.cs
+Assets/MQTT/scripts/Messages/MqttMsgPubcomp.cs
+Assets/MQTT/scripts/Messages/MqttMsgPublish.cs
+Assets/MQTT/scripts/Messages/MqttMsgPublishEventArgs.cs
+Assets/MQTT/scripts/Messages/MqttMsgPublishedEventArgs.cs
+Assets/MQTT/scripts/Messages/MqttMsgPubrec.cs
+Assets/MQTT/scripts/Messages/MqttMsgPubrel.cs
+Assets/MQTT/scripts/Messages/MqttMsgSuback.cs
+Assets/MQTT/scripts/Messages/MqttMsgSubscribe.cs
+Assets/MQTT/scripts/Messages/MqttMsgSubscribeEventArgs.cs
+Assets/MQTT/scripts/Messages/MqttMsgSubscribedEventArgs.cs
+Assets/MQTT/scripts/Messages/MqttMsgUnsuback.cs
+Assets/MQTT/scripts/Messages/MqttMsgUnsubscribe.cs
+Assets/MQTT/scripts/Messages/MqttMsgUnsubscribeEventArgs.cs
+Assets/MQTT/scripts/Messages/MqttMsgUnsubscribedEventArgs.cs
+Assets/MQTT/scripts/MqttClient.cs
+Assets/MQTT/scripts/MqttNetworkChannel.cs
+Assets/MQTT/scripts/MqttSettings.cs
+Assets/MQTT/scripts/Utility/QueueExtension.cs
+Assets/MQTT/scripts/Utility/Trace.cs
+Assets/MQTT/scripts/test/mqttTest.cs
+Assets/Main.cs
+"Assets/Mirza Beig/Particle Systems/Ultimate VFX/2 - Expansions/XP - TITLES/scripts/DemoManager_XPTitles.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/AnimatedLight.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/DestroyAfterTime.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/DestroyOnParticlesDead.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/DestroyOnTrailsDestroyed.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/IgnoreTimeScale.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/ParticleSystems.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/RendererSortingOrder.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/Rotator.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/TrailRenderers.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/DemoManager.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/FPSDisplay.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/FPSDisplay2.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/FPSTest.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/FollowMouse.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/LoopingParticleSystemsManager.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/OneshotParticleSystemsManager.cs"
+"Assets/Mirza Beig/Particle Systems/_Common/scripts/_demo/ParticleManager.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/AttractionParticleAffector.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/GPU (EXPERIMENTAL)/AttractionParticleAffectorGPU.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/GPU (EXPERIMENTAL)/ParticleAffectorGPU.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/GPU (EXPERIMENTAL)/TurbulenceParticleAffectorGPU.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/GPU (EXPERIMENTAL)/VortexParticleAffectorGPU.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/MT (EXPERIMENTAL)/TurbulenceParticleAffectorMT.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/Noise.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/ParticleAffector.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/TurbulenceParticleAffector.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Affectors/VortexParticleAffector.cs"
+"Assets/Mirza Beig/Scripting/Effects/Particle Lights/ParticleLights.cs"
+"Assets/Mirza Beig/Scripting/Effects/_Common/CreateLUT.cs"
+"Assets/Mirza Beig/Shaders/Image Effects/Resources/Sharpen/Sharpen.cs"
+"Assets/Mirza Beig/Shaders/_Common/IEBase.cs"
+"Assets/Particle Ribbon/Scripts/ReverseNormals.cs"
+-r:D:\Unity5.5.1\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll
+-r:D:\Unity5.5.1\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll
+-r:D:\Unity5.5.1\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll
+-r:D:\Unity5.5.1\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll
+-r:D:\Unity5.5.1\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll
+-sdk:unity
